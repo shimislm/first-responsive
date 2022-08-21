@@ -1,0 +1,10 @@
+.strip2 {
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  background: silver;
+}
+.strip2 img {
+  transition: 800ms;
+}
+.strip2 img:hover {
+  transform: scale(1.2);
+}

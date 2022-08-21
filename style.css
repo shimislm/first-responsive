@@ -1,0 +1,40 @@
+.strip {
+  min-height: 200px;
+  background: url(images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.strip h4 {
+  font-size: 3em;
+}
+.about .description {
+  max-width: 500px;
+}
+.strip2 {
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  background: silver;
+}
+.strip2 .box {
+  /* מיישר את הטקסט לאמצע */
+  text-align: center;
+  /* מעמיד את כל הבנים אחד ליד השני */
+  display: flex;
+  /* מעביר למצב אנכי */
+  flex-direction: column;
+  /* מסדר באמצע ביחס לעמוד */
+  align-items: center;
+  transition: 800ms;
+}
+.strip2 img {
+  border: 2px solid black;
+}
+
+body > section {
+  background: url(images/cover2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+body > section .container {
+  max-width: 700px;
+}
